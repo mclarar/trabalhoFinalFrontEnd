@@ -1,0 +1,46 @@
+.navbar{
+  
+  background-color: rgb(83, 14, 211);
+}
+
+h1{
+  text-align: center;
+  margin-top: 1rem;
+}
+hr{
+  margin-left: 25rem;
+}
+
+.container{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+ 
+}
+
+.pessoa{
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  margin: auto;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: crimson;
+}
+
+
+.foto img{
+ 
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+
+.sobre{
+  width: 80%;
+  background-color: chartreuse;
+}
+
