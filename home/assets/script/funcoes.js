@@ -1,4 +1,4 @@
-function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
+function Avaliar(estrela,id1,id2,id3,id4,id5,rating,card) {
   var url = window.location;
   url = url.toString();
   url = url.split("index.html");
@@ -18,7 +18,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star1.png";
       document.getElementById(id4).src = "assets/img/star1.png";
       document.getElementById(id5).src = "assets/img/star1.png";
-      document.getElementById('c1').className="com-borda";
+      document.getElementById(card).className="com-borda";
       avaliacao = 5;
     } else {
       document.getElementById(id1).src = "assets/img/star1.png";
@@ -26,7 +26,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star1.png";
       document.getElementById(id4).src = "assets/img/star1.png";
       document.getElementById(id5).src = "assets/img/star0.png";
-      document.getElementById('c1').className="card";
+      document.getElementById(card).className="card";
       avaliacao = 4;
     }
   }
@@ -39,7 +39,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star1.png";
       document.getElementById(id4).src = "assets/img/star1.png";
       document.getElementById(id5).src = "assets/img/star0.png";
-      document.getElementById('c1').className="card";
+      document.getElementById(card).className="card";
       avaliacao = 4;
     } else {
       document.getElementById(id1).src = "assets/img/star1.png";
@@ -47,7 +47,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star1.png";
       document.getElementById(id4).src = "assets/img/star0.png";
       document.getElementById(id5).src = "assets/img/star0.png";
-      document.getElementById('c1').className="card";
+      document.getElementById(card).className="card";
       avaliacao = 3;
     }
   }
@@ -60,6 +60,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star1.png";
       document.getElementById(id4).src = "assets/img/star0.png";
       document.getElementById(id5).src = "assets/img/star0.png";
+      document.getElementById(card).className="card";
       avaliacao = 3;
     } else {
       document.getElementById(id1).src = "assets/img/star1.png";
@@ -67,6 +68,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star0.png";
       document.getElementById(id4).src = "assets/img/star0.png";
       document.getElementById(id5).src = "assets/img/star0.png";
+      document.getElementById(card).className="card";
       avaliacao = 2;
     }
   }
@@ -79,6 +81,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star0.png";
       document.getElementById(id4).src = "assets/img/star0.png";
       document.getElementById(id5).src = "assets/img/star0.png";
+      document.getElementById(card).className="card";
       avaliacao = 2;
     } else {
       document.getElementById(id1).src = "assets/img/star1.png";
@@ -86,6 +89,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star0.png";
       document.getElementById(id4).src = "assets/img/star0.png";
       document.getElementById(id5).src = "assets/img/star0.png";
+      document.getElementById(card).className="card";
       avaliacao = 1;
     }
   }
@@ -98,6 +102,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star0.png";
       document.getElementById(id4).src = "assets/img/star0.png";
       document.getElementById(id5).src = "assets/img/star0.png";
+      document.getElementById(card).className="card";
       avaliacao = 1;
     } else {
       document.getElementById(id1).src = "assets/img/star0.png";
@@ -105,6 +110,7 @@ function Avaliar(estrela,id1,id2,id3,id4,id5,rating) {
       document.getElementById(id3).src = "assets/img/star0.png";
       document.getElementById(id4).src = "assets/img/star0.png";
       document.getElementById(id5).src = "assets/img/star0.png";
+      document.getElementById(card).className="card";
       avaliacao = 0;
     }
   }
