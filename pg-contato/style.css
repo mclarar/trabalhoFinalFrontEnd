@@ -1,23 +1,129 @@
+*{
+ 
+  margin: 0;
+  border: 0;
+}
 .navbar{
   
-  background-color: rgb(83, 14, 211);
-}
-
-
-
-form{
-  
-  margin: auto;
+  background-color: #770F34;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-toda{
+  width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  width: 35%;
+  flex-direction: column;
+  margin: auto;
+  /* background-color: rgb(255, 0, 102); */
+}
+
+.text{
+  width: 30%;
+  /* background-color: chartreuse; */
+  text-align: center;
+}
+.container{
+  width: 80%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ 
+  /* background-color: blue; */
+}
+.text{
   
-  border: 1px solid #333;
-  background-color: rgb(78, 78, 193);
+  font-size: 40px;
+}
+.container-form-e-contato{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem;
+  /* background-color: brown; */
 }
 
-.formulary{
-  width: 95%;
-  padding: 3rem;
+.formulario form{
+  
+  display: flex;
+  box-shadow: 0 0 1em rgb(221, 220, 216);
+  flex-direction: row;
 }
 
+#nome{
+  width: 49%;
+  box-shadow: 0 0 1em rgb(221, 220, 216);
+}
+
+#email{
+  width: 49%;
+  box-shadow: 0 0 1em rgb(221, 220, 216);
+}
+
+.textarea{
+
+  box-shadow: 0 0 1em rgb(221, 220, 216);
+} 
+
+.info{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(170, 52, 174); */
+  align-items: flex-start;
+  margin: auto;
+  
+}
+
+img{
+  width: 20px;
+  height: 20px;
+}
+.telefone{
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  gap: 7px;
+  /* background-color: chartreuse; */
+}
+
+.contato{
+  display: flex;
+  
+  width: 100%;
+  padding: 5px;
+  gap: 7px;
+  /* background-color: rgb(233, 1, 254); */
+}
+
+.trabalhe-conosco{
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  gap: 7px;
+  /* background-color: rgb(51, 173, 229); */
+}
+
+footer{
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(255, 0, 179);
+}
+.desenvolvedores{
+  width: 100%;
+  background-color: #770F34;
+  display: flex;
+}
+p{
+  font-family: 'Dosis', sans-serif;
+  color: black;
+}
+.desenvolvedores{
+  display: flex;
+  flex-direction: column;
+}
