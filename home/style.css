@@ -83,6 +83,26 @@ body {
   transform: scale(1);
 }
 
+.com-borda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 12rem;
+  box-shadow: 2px 3px 30px 2px rgb(164, 220, 10);
+  margin: auto;
+  background-color: rgb(164, 220, 10);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 75%;
+  object-fit: cover;
+  transform: scale(1);
+}
+
+
 .card .imagem-filme {
   height: 80%;
   object-fit: cover;
