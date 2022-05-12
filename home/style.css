@@ -41,9 +41,10 @@ hr {
   border: 0.1rem solid black;
   box-shadow: 5px 3px 10px 5px rgb(55, 55, 55);
   margin: auto;
+  background-color: rgb(83, 14, 211);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 60%;
+  background-size: 100% 75%;
   transform: scale(1);
 }
 
