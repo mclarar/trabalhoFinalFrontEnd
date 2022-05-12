@@ -1,9 +1,143 @@
-.navbar{
-  
+.navbar {
   background-color: rgb(83, 14, 211);
 }
+h2 {
+  margin-bottom: 0.3rem;
+}
+hr {
+  margin: 0%;
+  margin-bottom: 0.3rem;
+}
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
+}
+.containerCards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.3rem;
+  margin-left: 0rem;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-gap: 0.4rem 0.4rem;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 0.5rem;
+  width: 80%;
+  height: 12rem;
+  border: 0.1rem solid black;
+  box-shadow: 5px 3px 10px 5px rgb(55, 55, 55);
+  margin: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 60%;
+  transform: scale(1);
+}
+
+.play-button {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  opacity: 0%;
+}
+
+.card:hover .play-button {
+  opacity: 90%;
+}
+
+.card p {
+  margin: 0%;
+}
+
+.card:hover{
+  transform: scale(1.02);
+}
+
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  width: 100%;
+}
+
+
+.star a img {
+  width: 10px;
+  height: 10px;
+  margin: 0%;
+}
+
+.star p{
+  margin-left: 5px;
+}
+
+button {
+  background-color: rgb(181, 0, 0);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0.2rem;
+}
+
+@media (min-width: 575px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 767px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  }
+}
+@media (min-width: 1200px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1400px) {
+  .containerCards {
+    flex-direction: row;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }
