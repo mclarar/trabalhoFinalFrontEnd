@@ -1,587 +1,378 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./assets/favicon.ico" rel="icon" type="image/x-icon" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="assets/script/funcoes.js"></script>
-    <title>Pipocalizando</title>
-  </head>
 
-  <body>
-    <div id="fundo">
-      <img
-        src="https://correiodosul.com/wp-content/uploads/2018/07/02-1.jpg"
-        alt=""
-      />
-    </div>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img
-              src="./assets/3d.png"
-              alt=""
-              width="30"
-              height="24"
-              class="d-inline-block align-text-top"
-            />
-            Pipocalizando</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <h1 style="text-align: center">Sucessos de Bilheteria</h1>
-    <div class="container my-1">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://wallpaperaccess.com/full/329583.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://ewalflor.files.wordpress.com/2013/01/the_dark_knight_characters-wallpaper-1366x768.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://www.10wallpaper.com/wallpaper/1920x1080/1606/Warcraft_2016_Movies_Poster_Wallpaper_03_1920x1080.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="assets/script/funcoes.js"></script>
+  <title>Pipocalizando</title>
+</head>
 
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+<body>
+  <div id="fundo">
+    <img src="https://correiodosul.com/wp-content/uploads/2018/07/02-1.jpg" alt="" />
+  </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/3d.png" alt="" width="30" height="24"
+            class="d-inline-block align-text-top" />
+          Pipocalizando</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+  </header>
+  <h1 style="text-align: center">Sucessos de Bilheteria</h1>
+  <div class="container my-1">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://wallpaperaccess.com/full/329583.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>
+              Some representative placeholder content for the first slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://ewalflor.files.wordpress.com/2013/01/the_dark_knight_characters-wallpaper-1366x768.jpg"
+            class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>
+              Some representative placeholder content for the second slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.10wallpaper.com/wallpaper/1920x1080/1606/Warcraft_2016_Movies_Poster_Wallpaper_03_1920x1080.jpg"
+            class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Some representative placeholder content for the third slide.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <br />
-    <h2>Assista o Trailer e Avalie</h2>
-    <hr />
-    <div class="containerCards">
-      <div class="cards">
-        <div
-          class="card"
-          id="c1"
-          style="
+  </div>
+  <br />
+  <h2>Assista o Trailer e Avalie</h2>
+  <hr />
+  <div class="containerCards">
+    <div class="cards">
+      <div class="card" id="c1" style="
             background-image: url('https://teoriageek.com.br/wp-content/uploads/2022/02/Dr-Estranho-no-multiverso-da-loucura-capa.jpg');
-          "
-        >
+          ">
+        <div class="top-card">
           <a href="https://www.youtube.com/watch?v=idU-bx2x1a8" target="_blank">
-            <img
-              class="play-button"
-              src="assets/img/play-button.png"
-              alt="play-button"
-          /></a>
-          <p>Doutor Estranho no Multiverso da Loucura</p>
+            <img class="play-button" src="assets/img/play-button.png" alt="play-button" /></a>
+        </div>
+        <div class="bottom-card">
+          <div class="film-name">
+            <p>Doutor Estranho no Multiverso da Loucura</p>
+          </div>
           <div class="star">
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(1,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
-            >
-              <img src="assets/img/star0.png" id="s1-c1"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(2,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
-            >
-              <img src="assets/img/star0.png" id="s2-c1"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(3,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
-            >
-              <img src="assets/img/star0.png" id="s3-c1"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(4,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
-            >
-              <img src="assets/img/star0.png" id="s4-c1"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(5,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')"
-            >
-              <img src="assets/img/star0.png" id="s5-c1"
-            /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(1,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')">
+              <img src="assets/img/star0.png" id="s1-c1" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(2,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')">
+              <img src="assets/img/star0.png" id="s2-c1" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(3,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')">
+              <img src="assets/img/star0.png" id="s3-c1" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(4,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')">
+              <img src="assets/img/star0.png" id="s4-c1" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(5,'s1-c1','s2-c1','s3-c1','s4-c1','s5-c1','rating-c1','c1')">
+              <img src="assets/img/star0.png" id="s5-c1" /></a>
             <p id="rating-c1">0</p>
           </div>
         </div>
-        <div
-          class="card"
-          id="c2"
-          style="
+      </div>
+      <div class="card" id="c2" style="
             background-image: url('https://multiversonoticias.com.br/wp-content/uploads/2022/04/animais-fantasticos.jpg');
-          "
-        >
+          ">
+        <div class="top-card">
           <a href="https://www.youtube.com/watch?v=WONMTDpp3_E&ab_channel=Ingresso.com" target="_blank">
-            <img
-              class="play-button"
-              src="assets/img/play-button.png"
-              alt="play-button"
-          /></a>
-          <p>Animais Fantásticos: Os Segredos de Dumbledore</p>
+            <img class="play-button" src="assets/img/play-button.png" alt="play-button" /></a>
+        </div>
+        <div class="bottom-card">
+          <div class="film-name">
+            <p>Animais Fantásticos: Os Segredos de Dumbledore</p>
+          </div>
           <div class="star">
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(1,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
-            >
-              <img src="assets/img/star0.png" id="s1-c2"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(2,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
-            >
-              <img src="assets/img/star0.png" id="s2-c2"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(3,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
-            >
-              <img src="assets/img/star0.png" id="s3-c2"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(4,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
-            >
-              <img src="assets/img/star0.png" id="s4-c2"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(5,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')"
-            >
-              <img src="assets/img/star0.png" id="s5-c2"
-            /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(1,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')">
+              <img src="assets/img/star0.png" id="s1-c2" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(2,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')">
+              <img src="assets/img/star0.png" id="s2-c2" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(3,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')">
+              <img src="assets/img/star0.png" id="s3-c2" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(4,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')">
+              <img src="assets/img/star0.png" id="s4-c2" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(5,'s1-c2','s2-c2','s3-c2','s4-c2','s5-c2','rating-c2','c2')">
+              <img src="assets/img/star0.png" id="s5-c2" /></a>
             <p id="rating-c2">0</p>
           </div>
         </div>
-        <div
-          class="card"
-          id="c3"
-          style="
+      </div>
+      <div class="card" id="c3" style="
             background-image: url('https://br.web.img2.acsta.net/c_310_420/pictures/22/03/02/19/26/3666027.jpg');
-          "
-        >
-           <a href="https://www.youtube.com/watch?v=ASoxH8aV4fw&ab_channel=TrailersBR" target="_blank">    
-             <img
-             class="play-button"
-             src="assets/img/play-button.png"
-             alt="play-button"
-         />
-
-           </a>
-          <p>The Batman</p>
+          ">
+        <div class="top-card">
+          <a href="https://www.youtube.com/watch?v=ASoxH8aV4fw&ab_channel=TrailersBR" target="_blank">
+            <img class="play-button" src="assets/img/play-button.png" alt="play-button" />
+          </a>
+        </div>
+        <div class="bottom-card">
+          <div class="film-name">
+            <p>The Batman</p>
+          </div>
           <div class="star">
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(1,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
-            >
-              <img src="assets/img/star0.png" id="s1-c3"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(2,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
-            >
-              <img src="assets/img/star0.png" id="s2-c3"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(3,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
-            >
-              <img src="assets/img/star0.png" id="s3-c3"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(4,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
-            >
-              <img src="assets/img/star0.png" id="s4-c3"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(5,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')"
-            >
-              <img src="assets/img/star0.png" id="s5-c3"
-            /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(1,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')">
+              <img src="assets/img/star0.png" id="s1-c3" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(2,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')">
+              <img src="assets/img/star0.png" id="s2-c3" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(3,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')">
+              <img src="assets/img/star0.png" id="s3-c3" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(4,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')">
+              <img src="assets/img/star0.png" id="s4-c3" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(5,'s1-c3','s2-c3','s3-c3','s4-c3','s5-c3','rating-c3','c3')">
+              <img src="assets/img/star0.png" id="s5-c3" /></a>
             <p id="rating-c3">0</p>
           </div>
         </div>
-        <div
-          class="card"
-          id="c4"
-          style="
+      </div>
+      <div class="card" id="c4" style="
             background-image: url('https://cinema10.com.br/upload/filmes/filmes_14101_morbius.jpg?default=poster');
-          "
-        >
-          <a href="">
-            <a href="https://www.youtube.com/watch?v=f1ozk30l5YQ&ab_channel=SonyPicturesBrasil" target="_blank">
-              <img
-              class="play-button"
-              src="assets/img/play-button.png"
-              alt="play-button"
-          />
-            </a>
-            </a>
-          <p>Morbius</p>
+          ">
+        <div class="top-card">
+          <a href="https://www.youtube.com/watch?v=f1ozk30l5YQ&ab_channel=SonyPicturesBrasil" target="_blank">
+            <img class="play-button" src="assets/img/play-button.png" alt="play-button" />
+          </a>
+        </div>
+        <div class="bottom-card">
+          <div class="film-name">
+            <p>Morbius</p>
+          </div>
           <div class="star">
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(1,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
-            >
-              <img src="assets/img/star0.png" id="s1-c4"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(2,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
-            >
-              <img src="assets/img/star0.png" id="s2-c4"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(3,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
-            >
-              <img src="assets/img/star0.png" id="s3-c4"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(4,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
-            >
-              <img src="assets/img/star0.png" id="s4-c4"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(5,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')"
-            >
-              <img src="assets/img/star0.png" id="s5-c4"
-            /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(1,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')">
+              <img src="assets/img/star0.png" id="s1-c4" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(2,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')">
+              <img src="assets/img/star0.png" id="s2-c4" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(3,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')">
+              <img src="assets/img/star0.png" id="s3-c4" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(4,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')">
+              <img src="assets/img/star0.png" id="s4-c4" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(5,'s1-c4','s2-c4','s3-c4','s4-c4','s5-c4','rating-c4','c4')">
+              <img src="assets/img/star0.png" id="s5-c4" /></a>
             <p id="rating-c4">0</p>
           </div>
         </div>
-        <div
-          class="card"
-          id="c5"
-          style="
+      </div>
+      <div class="card" id="c5" style="
             background-image: url('https://img.melhoresfilmes.com.br/unsafe/320x480/https%3A%2F%2Fwww.melhoresfilmes.com.br%2Fstorage%2Fimgs%2Fposters%2F38011.jpg%3Ft%3D20211220170900');
-          "
-        >
+          ">
+        <div class="top-card">
           <a href="https://www.youtube.com/watch?v=fxOEBm65oFo&ab_channel=Ingresso.com" target="_blank">
-            <img
-              class="play-button"
-              src="assets/img/play-button.png"
-              alt="play-button"
-          /></a>
-          <p>Homem-Aranha: Sem Volta pra Casa</p>
+            <img class="play-button" src="assets/img/play-button.png" alt="play-button" /></a>
+        </div>
+        <div class="bottom-card">
+          <div class="film-name">
+            <p>Homem-Aranha: Sem Volta pra Casa</p>
+          </div>
           <div class="star">
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(1,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
-            >
-              <img src="assets/img/star0.png" id="s1-c5"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(2,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
-            >
-              <img src="assets/img/star0.png" id="s2-c5"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(3,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
-            >
-              <img src="assets/img/star0.png" id="s3-c5"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(4,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
-            >
-              <img src="assets/img/star0.png" id="s4-c5"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(5,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')"
-            >
-              <img src="assets/img/star0.png" id="s5-c5"
-            /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(1,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')">
+              <img src="assets/img/star0.png" id="s1-c5" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(2,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')">
+              <img src="assets/img/star0.png" id="s2-c5" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(3,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')">
+              <img src="assets/img/star0.png" id="s3-c5" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(4,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')">
+              <img src="assets/img/star0.png" id="s4-c5" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(5,'s1-c5','s2-c5','s3-c5','s4-c5','s5-c5','rating-c5','c5')">
+              <img src="assets/img/star0.png" id="s5-c5" /></a>
             <p id="rating-c5">0</p>
           </div>
         </div>
-        <div
-          class="card"
-          id="c6"
-          style="
+      </div>
+      <div class="card" id="c6" style="
             background-image: url('https://www.nerdtrip.com.br/wp-content/uploads/2022/02/Moonfall-01.jpg');
-          "
-        >
-          <a href="https://www.youtube.com/watch?v=lfp3O3jSbWk&ab_channel=PrimeVideoBrasil"target="_blank">
-            <img
-              class="play-button"
-              src="assets/img/play-button.png"
-              alt="play-button"
-          /></a>
-          <p>Moonfall</p>
+          ">
+        <div class="top-card">
+          <a href="https://www.youtube.com/watch?v=lfp3O3jSbWk&ab_channel=PrimeVideoBrasil" target="_blank">
+            <img class="play-button" src="assets/img/play-button.png" alt="play-button" /></a>
+        </div>
+        <div class="bottom-card">
+          <div class="film-name">
+            <p>Moonfall</p>
+          </div>
           <div class="star">
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(1,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
-            >
-              <img src="assets/img/star0.png" id="s1-c6"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(2,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
-            >
-              <img src="assets/img/star0.png" id="s2-c6"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(3,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
-            >
-              <img src="assets/img/star0.png" id="s3-c6"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(4,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
-            >
-              <img src="assets/img/star0.png" id="s4-c6"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(5,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')"
-            >
-              <img src="assets/img/star0.png" id="s5-c6"
-            /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(1,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')">
+              <img src="assets/img/star0.png" id="s1-c6" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(2,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')">
+              <img src="assets/img/star0.png" id="s2-c6" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(3,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')">
+              <img src="assets/img/star0.png" id="s3-c6" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(4,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')">
+              <img src="assets/img/star0.png" id="s4-c6" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(5,'s1-c6','s2-c6','s3-c6','s4-c6','s5-c6','rating-c6','c6')">
+              <img src="assets/img/star0.png" id="s5-c6" /></a>
             <p id="rating-c6">0</p>
           </div>
         </div>
-        <div
-          class="card"
-          id="c7"
-          style="
+      </div>
+      <div class="card" id="c7" style="
             background-image: url('https://johto.legiaodosherois.com.br/wp-content/uploads/2022/03/legiao_o3wPmdNhIW_z.jpg');
-          "
-        >
+          ">
+        <div class="top-card">
           <a href="https://www.youtube.com/watch?v=FtSL2wCTzhw&ab_channel=NickelodeonemPortugu%C3%AAs" target="_blank">
-            <img
-              class="play-button"
-              src="assets/img/play-button.png"
-              alt="play-button"
-          /></a>
-          <p>Sonic 2</p>
+            <img class="play-button" src="assets/img/play-button.png" alt="play-button" /></a>
+        </div>
+        <div class="bottom-card">
+          <div class="film-name">
+            <p>Sonic 2</p>
+          </div>
           <div class="star">
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(1,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
-            >
-              <img src="assets/img/star0.png" id="s1-c7"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(2,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
-            >
-              <img src="assets/img/star0.png" id="s2-c7"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(3,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
-            >
-              <img src="assets/img/star0.png" id="s3-c7"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(4,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
-            >
-              <img src="assets/img/star0.png" id="s4-c7"
-            /></a>
-            <a
-              href="javascript:void(0)"
-              onclick="Avaliar(5,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')"
-            >
-              <img src="assets/img/star0.png" id="s5-c7"
-            /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(1,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')">
+              <img src="assets/img/star0.png" id="s1-c7" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(2,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')">
+              <img src="assets/img/star0.png" id="s2-c7" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(3,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')">
+              <img src="assets/img/star0.png" id="s3-c7" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(4,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')">
+              <img src="assets/img/star0.png" id="s4-c7" /></a>
+            <a href="javascript:void(0)" onclick="Avaliar(5,'s1-c7','s2-c7','s3-c7','s4-c7','s5-c7','rating-c7','c7')">
+              <img src="assets/img/star0.png" id="s5-c7" /></a>
             <p id="rating-c7">0</p>
           </div>
         </div>
       </div>
     </div>
-    <br />
-    <h2>Nossos diretores favoritos</h2>
-    <hr />
-    <div class="containerCards">
-      <div class="cards">
-        <div
-          class="card"
-          style="
+  </div>
+  <br />
+  <h2>Nossos diretores favoritos</h2>
+  <hr />
+  <div class="containerCards">
+    <div class="cards">
+      <div class="card" style="
             background-image: url('https://vejasp.abril.com.br/wp-content/uploads/2016/11/9570_tim-burton.jpeg');
-          "
-        >
-          <a href=""> </a>
-          <p> <a href="https://pt.wikipedia.org/wiki/Tim_Burton" target="_blank">Tim Burton</a> </p>
-        </div>
-        <div
-          class="card"
-          style="
-            background-image: url('https://keithandthemovies.files.wordpress.com/2020/03/img_3555.jpg');
-          "
-        >
-          <a href=""> </a>
-          <p> <a href="https://pt.wikipedia.org/wiki/Christopher_Nolan" target="_blank">Christopher Nolan</a> </p>
-        </div>
-        <div
-          class="card"
-          style="
-            background-image: url('https://i0.wp.com/readysteadycut.com/wp-content/uploads/2019/08/Quentin_Taratino.jpg?fit=1024%2C683&ssl=1');
-          "
-        >
-          <a href=""> </a>
-          <a href="https://pt.wikipedia.org/wiki/Quentin_Tarantino" target="_blank"><p>Quentin Tarantino</a> </p>
-        </div>
-        <div
-          class="card"
-          style="
-            background-image: url('https://cdn.olivre.com.br/wp-content/uploads/2019/04/james-wan.jpg');
-          "
-        >
+          ">
+        <div class="top-card"></div>
+        <div class="bottom-card">
+          <a href="https://pt.wikipedia.org/wiki/Tim_Burton" target="_blank">
+            <p>Tim Burton</p>
           </a>
-          <p> <a href="https://pt.wikipedia.org/wiki/James_Wan" target="_blank">James Wan</a> </p>
         </div>
-        <div
-          class="card"
-          style="
+      </div>
+      <div class="card" style="
+            background-image: url('https://keithandthemovies.files.wordpress.com/2020/03/img_3555.jpg');
+          ">
+        <div class="top-card"></div>
+        <div class="bottom-card">
+          <a href="https://pt.wikipedia.org/wiki/Christopher_Nolan" target="_blank">
+            <p>Christopher Nolan</p>
+          </a>
+        </div>
+      </div>
+      <div class="card" style="
+            background-image: url('https://i0.wp.com/readysteadycut.com/wp-content/uploads/2019/08/Quentin_Taratino.jpg?fit=1024%2C683&ssl=1');
+          ">
+        <div class="top-card"></div>
+        <div class="bottom-card">
+          <a href="https://pt.wikipedia.org/wiki/Quentin_Tarantino" target="_blank">
+            <p>Quentin Tarantino</p>
+          </a>
+        </div>
+      </div>
+      <div class="card" style="
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC9w900_Ae5fAvIizzmq-nN74T2s_0P-ODm_MP5J8BWUAdw0CKB3RBKLnxdSCj0Rjdo5M&usqp=CAU');
+          ">
+        <div class="top-card"></div>
+        <div class="bottom-card">
+          <a href="https://pt.wikipedia.org/wiki/James_Wan" target="_blank">
+            <p>James Wan</p>
+          </a>
+        </div>
+      </div>
+      <div class="card" style="
             background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/11/27/14/martinscorsese.png?width=1200');
-          "
-        >
-          <a href="">
-           </a>
-          <p> <a href="https://pt.wikipedia.org/wiki/Martin_Scorsese" target="_blank">Martin Scorsese</a> </p>
+          ">
+        <div class="top-card"></div>
+        <div class="bottom-card">
+          <a href="https://pt.wikipedia.org/wiki/Martin_Scorsese" target="_blank">
+            <p>Martin Scorsese</p>
+          </a>
         </div>
-        <div
-          class="card"
-          style="
+      </div>
+      <div class="card" style="
             background-image: url('https://usercontent.one/wp/www.screentune.com/wp-content/uploads/2018/12/nyff_steven_spielberg_h.jpg');
-          "
-        >
-          <a href="">
-            </a>
-          <p> <a href="https://pt.wikipedia.org/wiki/Steven_Spielberg" target="_blank">Steven Spielberg</a> </p>
+          ">
+        <div class="top-card"></div>
+        <div class="bottom-card">
+          <a href="https://pt.wikipedia.org/wiki/Steven_Spielberg" target="_blank">
+            <p>Steven Spielberg</p>
+          </a>
         </div>
-        <div
-          class="card"
-          style="
+      </div>
+      <div class="card" style="
             background-image: url('http://img.timeinc.net/time/daily/2013/1301/360_wbigelow_0123.jpg');
-          "
-        >
-          <a href="">
-            </a>
-          <p> <a href="https://pt.wikipedia.org/wiki/Kathryn_Bigelow" target="_blank">Kathryn Bigelow</a> </p>
+          ">
+        <div class="top-card"></div>
+        <div class="bottom-card">
+          <a href="https://pt.wikipedia.org/wiki/Kathryn_Bigelow" target="_blank">
+            <p> Kathryn Bigelow</p>
+          </a>
         </div>
       </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
