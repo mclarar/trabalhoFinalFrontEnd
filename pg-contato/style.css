@@ -59,10 +59,10 @@
   
 }
 
-.formulario form{
+.formulario {
   
   display: flex;
-  box-shadow: 0 0 1em #dddcd8;
+  
   flex-direction: row;
 }
 
@@ -128,3 +128,5 @@ img{
 footer{
   font-size: 1.3rem;
 }
+
+
