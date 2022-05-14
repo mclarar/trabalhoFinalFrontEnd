@@ -39,8 +39,8 @@
     width: 300px;
     height: 300px;
     border: 1px solid #f1f1f1;
-    perspective: 1000px; 
   }
+  
   .card-frente img{
     position: absolute;
     left: 0px;
