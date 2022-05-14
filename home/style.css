@@ -258,19 +258,7 @@ button {
   margin-left: 0%;
 }
 
-.desenvolvedores {
-  display: flex;
-  flex-direction: row;
-}
 
-.logo img {
-  width: 300px;
-  height: 150px;
-  padding: 1.5rem;
-}
-footer {
-  font-size: 1.3rem;
-}
 
 @media (min-width: 400px) {
   .containerCards {

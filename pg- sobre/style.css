@@ -26,7 +26,7 @@ hr{
  
 }
 
-.desenvolvedores {
+.devs {
   color: aliceblue;
   text-align: center;
   background-color: rgb(55, 55, 55);
@@ -66,18 +66,6 @@ hr{
   padding: 20px;
 }
 
-.desenvolvedores-1{
-  display: flex;
-  flex-direction: row;
-}
 
-.logo img{
-  width: 300px;
-  height: 150px;
-  padding: 1.5rem;
-}
-footer{
-  font-size: 1.3rem;
-}
 
 
