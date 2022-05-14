@@ -108,7 +108,9 @@
   }
   footer{
     font-size: 1.3rem;
-    background-color: rgba(218, 0, 0, 0.834);
+    background-color: #da0000d5;
+    padding: 4rem;
+    margin-top: 0.5rem;
   }
   
   
