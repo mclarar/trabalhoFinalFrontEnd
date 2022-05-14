@@ -160,7 +160,7 @@ body {
   transition: 0.5s;
 }
 
-.film-name{
+.film-name {
   height: 5.35rem;
   display: flex;
   align-items: center;
@@ -172,7 +172,7 @@ body {
   align-items: center;
   width: 100%;
   margin: 0.1rem;
-  height: 1,75rem;
+  height: 1, 75rem;
 }
 
 .star a img {
@@ -197,36 +197,41 @@ button {
   border-radius: 0.2rem;
 }
 
-.playlist{
+.playlist {
   display: flex;
   justify-content: center;
 }
 
-.indicacao{
-  width: 70%;
+.indicacao {
+  width: 90%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
   padding: 1rem;
   box-shadow: 2px 3px 30px 2px rgb(55, 55, 55);
   background-color: rgb(55, 55, 55);
+  border-radius: 0.2rem;
   margin-bottom: 1rem;
 }
-.indicacao img{
-  width: 250px;
-  height: 350px;
-  
+
+.poster-indicacao {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
 }
 
-.sinopse{
-  
+.poster-indicacao img {
+  width: 90%;
+}
+
+.sinopse {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-
 }
-.sinopse-texto{
+
+.sinopse-texto {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,35 +239,36 @@ button {
   color: aliceblue;
 }
 
-.sinopse-texto p{
+.sinopse-texto p {
   justify-content: center;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1rem;
   padding: 1rem;
 }
 
-.sinopse-texto img{
+.sinopse-texto img {
   width: 50px;
   height: 30px;
-  
 }
 
-.trilha-sonora, .h2-indicacao{
+.trilha-sonora,
+.h2-indicacao {
   text-align: center;
+  margin-left: 0%;
 }
 
-.desenvolvedores{
+.desenvolvedores {
   display: flex;
   flex-direction: row;
 }
 
-.logo img{
+.logo img {
   width: 300px;
   height: 150px;
   padding: 1.5rem;
 }
-footer{
+footer {
   font-size: 1.3rem;
 }
 
@@ -273,6 +279,9 @@ footer{
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+  .poster-indicacao img {
+    width: 80%;
+  }
 }
 
 @media (min-width: 575px) {
@@ -281,6 +290,15 @@ footer{
   }
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .indicacao {
+    flex-direction: row;
+  }
+  .poster-indicacao {
+    width: 40%;
+  }
+  .sinopse {
+    width: 60%;
   }
 }
 
@@ -291,6 +309,18 @@ footer{
   .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .indicacao {
+    width: 80%;
+  }
+  .poster-indicacao {
+    width: 40%;
+  }
+  .sinopse {
+    width: 60%;
+  }
+  .sinopse-texto p {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -300,6 +330,18 @@ footer{
   .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+  .indicacao {
+    width: 70%;
+  }
+  .poster-indicacao {
+    width: 40%;
+  }
+  .sinopse {
+    width: 60%;
+  }
+  .sinopse-texto p {
+    font-size: 1.2rem;
+  }
 }
 @media (min-width: 1200px) {
   .containerCards {
@@ -307,6 +349,18 @@ footer{
   }
   .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .indicacao {
+    width: 70%;
+  }
+  .poster-indicacao {
+    width: 30%;
+  }
+  .sinopse {
+    width: 70%;
+  }
+  .sinopse-texto p {
+    font-size: 1.4rem;
   }
 }
 
@@ -316,5 +370,17 @@ footer{
   }
   .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .indicacao {
+    width: 70%;
+  }
+  .poster-indicacao {
+    width: 30%;
+  }
+  .sinopse {
+    width: 70%;
+  }
+  .sinopse-texto p {
+    font-size: 1.6rem;
   }
 }
